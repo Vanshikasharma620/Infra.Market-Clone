@@ -165,6 +165,8 @@ svg:hover{
 
 #navbar2 ul {
     display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
 }
 
 #navbar2 ul li {
@@ -229,4 +231,90 @@ a{
 
     
 }
+
+@media(max-width:1200px)
+{
+#navbar2 ul{
+    width: 400px;
+}
+
+#navbar{
+    display: none;
+}
+
+#right{
+    display: none;
+}
+}
+
+@media(max-width:900px)
+{
+    #left h1{
+        margin:-31px 5px;
+    }
+
+    #left h3{
+        margin:-34px 10px;
+    }
+
+    #about{
+       left:40px;
+       
+    }
+
+    
+
+   
+
+   
+
+    #heading{
+        transform:translate(0%,0%) ;
+    }
+
+    #heading h4{
+        margin: 58px 19px;
+        
+    }
+}
+
+@media(max-width:800px)
+{
+    #heading h4{
+        font-size: 1.5rem;
+    }
+    #about h5{
+        font-size: 1.5rem;
+    }
+
+    #about h6{
+        font-size: 1.5rem;
+    }
+
+    #about p{
+        font-size: 1rem;
+    }
+
+    #navbar2 ul{
+        width: 200px;
+    }
+
+    #navbar2 {
+        right: -5px;
+    }
+
+}
+
+@media(max-width:400px)
+{
+    #navbar2 ul{
+        width: 150px;
+    }
+
+    #about p{
+        width: 300px;
+    }
+}
+
+
 
